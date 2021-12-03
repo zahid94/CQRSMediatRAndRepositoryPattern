@@ -8,4 +8,9 @@
     <PackageReference Include="MediatR" Version="9.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CQRSMediatRAndRepositoryPattern.Models\CQRSMediatRAndRepositoryPattern.Models.csproj" />
+    <ProjectReference Include="..\CQRSMediatRAndRepositoryPattern.Services\CQRSMediatRAndRepositoryPattern.Services.csproj" />
+  </ItemGroup>
+
 </Project>

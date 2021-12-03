@@ -6,7 +6,13 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CQRSMediatRAndRepositoryPattern.Features\CQRSMediatRAndRepositoryPattern.Features.csproj" />
+    <ProjectReference Include="..\CQRSMediatRAndRepositoryPattern.Services\CQRSMediatRAndRepositoryPattern.Services.csproj" />
   </ItemGroup>
 
 </Project>
